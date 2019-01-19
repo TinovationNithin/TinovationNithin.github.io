@@ -20,7 +20,6 @@
   }
 
   #myVideo {
-    position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -28,7 +27,6 @@
   }
 
   .content {
-    position: fixed;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
@@ -53,8 +51,8 @@
   </style>
   </head>
   <body>
-
-  <video autoplay muted loop id="myVideo">
+<video autoplay muted loop id="myVideo">
+  <video id="myVideo">
     <source src="optical.mp4" type="video/mp4">
     Your browser does not support HTML5 video.
   </video>
@@ -83,7 +81,7 @@
   </a>
   <a target = "blank" href="https://na.leagueoflegends.com/en/">
     <img src="yasu.jpg" alt="nightbringer yasuo" style="width:505px;height:297px;border:0;">
-
+</a>
   <script>
   var video = document.getElementById("myVideo");
   var btn = document.getElementById("myBtn");
@@ -101,7 +99,3 @@
 
   </body>
   </html>
-
-
-</a>
-<style>
